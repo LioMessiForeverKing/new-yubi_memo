@@ -214,6 +214,16 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Our First Product Button */}
+          <div className="my-20 text-center">
+            <a 
+              href="/phtogrph" 
+              className="text-xl font-semibold text-black hover:text-red-700 transition-colors duration-300 border-b-2 border-black hover:border-red-700 pb-1"
+            >
+              Our First Product
+            </a>
+          </div>
+
           {/* Citations */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Citations</h2>
