@@ -60,62 +60,84 @@ export default function Home() {
           {/* Our Thesis */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Our Thesis</h2>
-            <div className="space-y-4 text-base leading-normal text-gray-800 font-ui">
-              <p>
-                Most AI today is <span className="text-red-700 font-semibold">generic and shallow</span>; they lack true information about the user.
-              </p>
-              <p>
-                Because they lack a real, <span className="text-red-700 font-semibold">behavior-driven understanding</span> of the user, they're built on limited or self-reported data (<span className="text-red-700 font-semibold">Webscraping, LinkedIn, Instagram</span>).
-              </p>
-              <p>
-                We solve this by tapping into the rich <span className="text-red-700 font-semibold">Skinner box data</span> that you've been unintentionally building over the years, but no one is using - <span className="text-red-700 font-semibold">TikTok and YouTube</span>.
-              </p>
-            </div>
+              <div className="space-y-4 text-base leading-normal text-gray-800 font-ui">
+                <p>
+                  Most AI today feels <span className="text-red-700 font-semibold">generic and disconnected</span> because it doesn't start with a real understanding of who you are. Instead, it depends on surface-level or self-reported data from platforms like <span className="text-red-700 font-semibold">LinkedIn or Instagram</span>, missing the depth of how people actually behave and express themselves.
+                </p>
+                <p>
+                  We begin with <span className="text-red-700 font-semibold">YouTube and TikTok</span>, the two richest behavioral ecosystems on the planet, allowing people to pick up from where they already are rather than starting from zero. By helping users seamlessly export the foundation of their social graph into our apps, we unlock a living picture of their interests, rhythms, and emotions.
+                </p>
+                <p>
+                  From there we work on the frontier of <span className="text-red-700 font-semibold">AI memory</span>, designing systems that create the "this app gets me" feeling, the real aha moment. Our mission is to deliver <span className="text-red-700 font-semibold">true personalization at scale</span>, building technology that remembers you and evolves with you over time.
+                </p>
+                <p>
+                  We believe the next suite of consumer apps and social interfaces will not exist as isolated products but as <span className="text-red-700 font-semibold">connected experiences</span> that understand, remember, and adapt together, forming an ecosystem that truly reflects the people who use it.
+                </p>
+              </div>
           </section>
 
           {/* Building the ScaleAI */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Building the ScaleAI for Human Personalization</h2>
             <div className="space-y-4 text-base leading-normal text-gray-800 font-ui">
-                              <p>
-                  Imagine a world where AI understands you better than your closest friends, without you ever saying a word. Today, AI systems are limited because they rely on shallow, surface-level data such as your LinkedIn bio, your Instagram follows, or a survey you quickly filled out. But these systems miss the <span className="text-red-700 font-semibold">deep psychological patterns</span> hidden in the everyday behaviors you've unknowingly shaped through platforms like <span className="text-red-700 font-semibold">TikTok and YouTube</span>.
-                </p>
-                <p>
-                  Over the past decade, you've unintentionally constructed a <span className="text-red-700 font-semibold">rich Skinner box</span>; a complex map of preferences and behaviors that these platforms meticulously track, yet <span className="text-red-700 font-semibold">remains untapped for true AI personalization</span>. These algorithms were not initially built with modern AI applications in mind, yet they've inadvertently captured the most detailed snapshot of human behavior we've ever seen.
-                </p>
-                <p>
-                  Our team's deep-rooted fascination with <span className="text-red-700 font-semibold">neuroscience, philosophy, cognitive science, and cybersecurity</span> uniquely positions us to harness these insights. Neuroscience, in particular, enables us to decode complex behavioral patterns and translate them into actionable insights for personalized AI experiences.
-                </p>
+              <p>
+                Imagine a world where AI understands you better than your closest friends, without you ever saying a word. Today, AI systems are limited because they rely on shallow, surface-level data such as your LinkedIn bio, your Instagram follows, or a survey you quickly filled out. But these systems miss the <span className="text-red-700 font-semibold">deep psychological patterns</span> hidden in the everyday behaviors you've unknowingly shaped through platforms like <span className="text-red-700 font-semibold">TikTok and YouTube</span>.
+              </p>
+              <p>
+                Over the past decade, you've unintentionally constructed a <span className="text-red-700 font-semibold">rich Skinner box</span>, a complex map of preferences and behaviors that these platforms meticulously track yet remains untapped for true AI personalization. These algorithms weren't built with modern AI in mind, but they've accidentally captured the most detailed snapshot of human behavior ever recorded.
+              </p>
+              <p>
+                Our team's background in <span className="text-red-700 font-semibold">neuroscience, cognitive science, and a deep taste for consumer technology</span> gives us a unique lens to translate these behavioral signals into systems that actually understand people. We believe the missing layer in AI is not intelligence, it's <span className="text-red-700 font-semibold">memory</span>. Memory is what makes intelligence feel human. It's what transforms an interaction from mechanical to meaningful.
+              </p>
+              <p>
+                You could be the most charismatic, smart, funny, and attractive person in the world, but if you don't remember anything about me, I won't feel seen. That's exactly the problem current AI systems face. They can be witty, articulate, and efficient, yet they lack continuity because they don't remember who you are, what you like, or how you felt yesterday.
+              </p>
               <div className="bg-gray-50 border-l-4 border-gray-400 p-4 rounded-r-lg my-6">
-                <p className="font-bold text-gray-800 mb-3 text-base">YouTube and TikTok's algorithms were not built with AI as we know it today in mind. Why is Google losing the AI war right now to GPT?</p>
-                <div className="space-y-2 text-base">
-                  <p className="text-gray-800">"I don't want to switch off of GPT because it knows a lot about me." - <em className="text-gray-600">(Based on informal interviews conducted with 100+ Rutgers students who chose to stay with ChatGPT despite having free Gemini Pro access.)</em></p>
-                  <p className="text-gray-800">Imagine if Google were to release a Gemini tomorrow, trained on what the YouTube algorithm knows about you - a <span className="text-red-700 font-semibold">personal Gemini Assistant for everyone</span></p>
-                </div>
+                <p className="text-gray-800 italic">"I don't want to switch off of GPT because it knows a lot about me."</p>
+                <p className="text-gray-600 text-sm mt-2">(Based on informal interviews conducted with 200+ students across college campuses who chose to stay with ChatGPT despite having free Gemini Pro access.)</p>
               </div>
+              <p>
+                At our company, we see memory as the true driver of personalization and <span className="text-red-700 font-semibold">proactivity as its natural evolution</span>. Once AI can remember, it can begin to anticipate, surfacing the right ideas, connections, and actions before you even ask. By building on the behavioral foundations of platforms like TikTok and YouTube, we're creating AI systems that don't just respond, they remember and act. They adapt, recall, and evolve with you over time, unlocking a new era of truly personal and proactive technology that feels less like a tool and more like a <span className="text-red-700 font-semibold">companion that genuinely understands and supports you</span>.
+              </p>
             </div>
           </section>
 
-          {/* Our Current Plan */}
+          {/* Our Strategy */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Our Current Plan</h2>
-            <div className="space-y-5 text-base leading-normal text-gray-800 font-ui">
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 text-lg">Our initial strategy is B2B:</h3>
-                <p>We are building a robust data infrastructure and engine that we license to startups positioned for rapid growth in the consumer market. As proof of traction, we have secured a <span className="text-red-700 font-semibold">Letter of Intent and contract</span> with <span className="text-red-700 font-semibold">Ditto AI</span>, a company that averages <span className="text-red-700 font-semibold">1.5 million impressions per TikTok/Instagram post</span>. The company has a waitlist <span className="text-red-700 font-semibold">exceeding 10,000 users</span>, and has attracted interest from high-profile investors such as <span className="text-red-700 font-semibold">Mark Cuban</span>.</p>
+            <h2 className="text-2xl font-bold mb-4">Our Strategy</h2>
+            <div className="space-y-4 text-base leading-normal text-gray-800 font-ui">
+              <p>
+                We have been quietly building an <span className="text-red-700 font-semibold">Applied AI Consumer Lab</span>, a company experimenting at the frontier of memory, proactivity, and human-AI interaction. Our mission is to design systems that understand people deeply, anticipate their needs, and enhance their daily lives. We are not building another consumer app. We are building the foundation for a new class of intelligent, personalized interfaces that integrate seamlessly into how people live, connect, and express themselves.
+              </p>
+              <p>
+                Our focus is on <span className="text-red-700 font-semibold">AI memory and proactive agents</span>, systems that don't just respond but act. We are exploring how AI can become a daily collaborator, helping people across multiple dimensions of life:
+              </p>
+              <div className="ml-4 space-y-3">
+                <p>
+                  <span className="text-red-700 font-semibold">Social connection:</span> Helping people meet new friends and reconnect with old ones through shared behaviors and emotional alignment.
+                </p>
+                <p>
+                  <span className="text-red-700 font-semibold">Health and wellness:</span> Using memory and behavioral insights to monitor patterns and support well-being, similar to how Flo personalizes health cycles.
+                </p>
+                <p>
+                  <span className="text-red-700 font-semibold">Fashion and self-expression:</span> Translating behavioral and visual cues from platforms like TikTok and YouTube into a dynamic reflection of personal style.
+                </p>
+                <p>
+                  <span className="text-red-700 font-semibold">Everyday utility:</span> Creating proactive agents that anticipate needs, remind, suggest, and assist before a user even has to ask.
+                </p>
               </div>
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 text-lg">Distribution through partnerships:</h3>
-                <p>By powering Ditto AI's next-generation app with our engine, we gain immediate access to their substantial audience. This partnership enables us to accelerate consumer adoption of our platform without the costs and risks of direct-to-consumer acquisition.</p>
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 text-lg">Network effects and data accumulation:</h3>
-                <p>As users engage with products built on our engine, we collect high-value behavioral and preference data. Upon reaching a critical mass, approximately <span className="text-red-700 font-semibold">50,000 users</span>, we will anonymize and aggregate this data to sell actionable insights to enterprise clients, establishing a new revenue stream. Our long-term goal is to offer integrations with major platforms such as <span className="text-red-700 font-semibold">OpenAI</span>, enabling users to export and leverage their personalized <span className="text-red-700 font-semibold">"Ubi Brain"</span> across services.</p>
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-800 mb-2 text-lg">Transition to proprietary data assets:</h3>
-                <p>With sufficient adoption, we will evolve from aggregating third-party behavioral data to generating our own proprietary datasets by introducing hardware and first-party experiences. This positions our Data Layer as a unique, defensible asset, fully under our control and increasingly valuable to enterprise partners and AI platforms.</p>
-              </div>
+              <p>
+                Over the past few months, we have been testing these ideas in the real world. We have built and launched more than <span className="text-red-700 font-semibold">ten consumer AI apps</span>, failed fast on several, and scaled others to over <span className="text-red-700 font-semibold">4,000 active users combined</span>. Each experiment has taught us something new about true consumer intent—what people actually want when AI becomes part of their lives.
+              </p>
+              <p>
+                Now, we are channeling those learnings into a unified system: a <span className="text-red-700 font-semibold">memory and personalization engine</span> that powers proactive AI agents across verticals. Each new app we launch strengthens the memory layer, creating an interconnected ecosystem of experiences that learns collectively and adapts over time.
+              </p>
+              <p>
+                Our next step is to scale the lab by expanding our team, deepening research partnerships, and building long-term infrastructure around <span className="text-red-700 font-semibold">behavioral data, memory graphs, and lightweight on-device models</span>. As this foundation grows, it evolves into a personal intelligence layer that moves with the user across every part of their digital and physical life.
+              </p>
+              <p>
+                We believe the next generation of consumer AI will not be defined by a single product. It will be a <span className="text-red-700 font-semibold">connected network of proactive, memory-powered experiences</span> that understand, remember, and grow with people. We have been quietly building the lab to make that future real.
+              </p>
             </div>
             <div className="mt-8 mb-8">
               <div className="relative">
@@ -135,7 +157,7 @@ export default function Home() {
           {/* Graphical Representations Note */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Just some graphical representations</h2>
-            <p className="text-sm text-gray-600 mb-5 italic">(Based on something that Dhruv, our COO, built for himself in 2022).</p>
+            <p className="text-sm text-gray-600 mb-5 italic">(Based on something that Dhruv, our CEO, built for himself in 2022).</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="text-center">
                 <h3 className="font-bold text-gray-800 mb-3 text-base">What AI is currently built on:</h3>
@@ -162,20 +184,41 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Why ubi Wins */}
+
+          {/* Why Ubi Wins */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Why Ubi Wins</h2>
-            <div className="space-y-4 text-base leading-normal text-gray-800">
+            <div className="space-y-4 text-base leading-normal text-gray-800 font-ui">
               <p>
-                While others are guessing at user preferences, <span className="text-red-700 font-semibold">Ubi already knows</span>. We are building the critical missing infrastructure; the <span className="text-red-700 font-semibold">behavioral data layer that makes truly personal AI possible</span>.
+                We are entering a new era of human AI interaction. The world doesn't need another app that does one thing, it needs a <span className="text-red-700 font-semibold">connected system that understands people across everything they do</span>.
               </p>
-              <div className="bg-gray-50 border border-gray-300 p-4 rounded-lg">
-                <p className="font-bold text-gray-900 text-base">
-                  We are not here to build yet another AI tool. We are here to build the <span className="text-red-700 font-semibold">fundamental intelligence layer that future AI depends upon</span>.
-                </p>
-              </div>
               <p>
-                To prove our thesis, we built a prototype about the idea. You can view it <a href="https://screenapp.io/app/#/shared/tTibGn7897" className="text-red-600 hover:text-red-700 font-semibold">here</a>. The fact that this is almost <span className="text-red-700 font-semibold">95% right about who Ayen (our CTO) is</span>, is a proof of concept that our thesis makes sense.
+                Social networks used to be destinations. You went to Facebook to connect, to Instagram to share, to TikTok to express. But the next generation of platforms will not live in a single app. They will <span className="text-red-700 font-semibold">live with the user, across time, memory, and context</span>.
+              </p>
+              <p>
+                Ubi wins because we are building exactly that, the missing behavioral data and memory infrastructure that allows AI to truly personalize human experience. Our system will benefit from the existing social graphs that users have already created through YouTube and TikTok. Over time, we will own a <span className="text-red-700 font-semibold">social graph that is completely unique</span>, built from authentic behavior and interaction. After hundreds of conversations with users, friends, and classmates, our insight is clear: this graph should not live inside a single app, it should <span className="text-red-700 font-semibold">live across our entire ecosystem</span>. Every new experience we launch will be aware of that graph, creating a connected layer of personalization that grows stronger with every interaction.
+              </p>
+              <p>
+                There are strong cultural tailwinds behind this shift. Gen Z is done with mindless scrolling <a href="#citation-1" className="text-red-600 hover:text-red-700">[1]</a>. Despite social apps being more addictive than ever, engagement among younger audiences is actually declining. What people want now is real connection, authenticity, belonging, and tools that understand them without demanding attention.
+              </p>
+              <p>
+                The first wave of AI social apps like Sora2 proved this tension. They gained instant hype but no retention. People don't want synthetic feeds; they want systems that make their real lives richer.
+              </p>
+              <p>
+                Ubi sits exactly at that intersection. We believe AI will stay, but its role is changing. AI should not replace people, it should remember, connect, and empower them. We see a world of <span className="text-red-700 font-semibold">agent to agent collaboration</span>, where every user has their own Jarvis, not a single omnipotent assistant, but a network of smaller, specialized agents that act together, coordinate, and get things done for you.
+              </p>
+              <p>
+                That is the infrastructure we are building, a <span className="text-red-700 font-semibold">human centered layer of memory, intelligence, and coordination</span> that bridges people and AI. It is not just another social product; it is the operating system for the next generation of digital life.
+              </p>
+            </div>
+          </section>
+
+          {/* Citations */}
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Citations</h2>
+            <div className="space-y-2 text-sm text-gray-600 font-ui">
+              <p id="citation-1">
+                <span className="font-semibold">[1]</span> Have We Reached Peak Social Media? Critical Playground, 2024. <a href="https://criticalplayground.org/news/have-we-reached-peak-social-media/" className="text-red-600 hover:text-red-700 underline">https://criticalplayground.org/news/have-we-reached-peak-social-media/</a>
               </p>
             </div>
           </section>
