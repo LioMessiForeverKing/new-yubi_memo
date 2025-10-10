@@ -1,0 +1,21 @@
+import type { Metadata } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'Ubi Memo - Building the ScaleAI for Human Personalization',
+  description: 'Ubi startup memo outlining our vision for AI that understands human behavior at a subconscious level',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className="min-h-screen">
+        {children}
+      </body>
+    </html>
+  )
+} 
