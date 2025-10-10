@@ -52,9 +52,10 @@ export default function Home() {
           
           {/* Team Section */}
           <div className="mb-6 text-lg leading-tight">
-            <p><span className="text-red-700 font-semibold">CEO:</span> <a href="https://www.linkedin.com/in/dhruvkl/" className="text-red-600 hover:text-red-700">Dhruv Lalwani</a></p>
-            <p><span className="text-red-700 font-semibold">CTO:</span> <a href="https://www.linkedin.com/in/ayen-monasha-b96666236/" className="text-red-600 hover:text-red-700">Ayen Monasha</a></p>
-            <p><span className="text-red-700 font-semibold">COO:</span> <a href="https://www.linkedin.com/in/sophia-green1/" className="text-red-600 hover:text-red-700">Sophia Green</a></p>
+            <p><span className="text-red-700 font-semibold">CEO & Co-founder:</span> <a href="https://www.linkedin.com/in/dhruvkl/" className="text-red-600 hover:text-red-700">Dhruv Lalwani</a></p>
+            <p><span className="text-red-700 font-semibold">CTO & Co-founder:</span> <a href="https://www.linkedin.com/in/ayen-monasha-b96666236/" className="text-red-600 hover:text-red-700">Ayen Monasha</a></p>
+            <p><span className="text-red-700 font-semibold">COO & Co-founder:</span> <a href="https://www.linkedin.com/in/sophia-green1/" className="text-red-600 hover:text-red-700">Sophia Green</a></p>
+            <p><span className="text-red-700 font-semibold">CMO:</span> <a href="#" className="text-red-600 hover:text-red-700">Isabelle Green</a></p>
           </div>
 
           {/* Our Thesis */}
