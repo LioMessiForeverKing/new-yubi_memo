@@ -200,7 +200,7 @@ export default function Home() {
                 Ubi wins because we are building exactly that, the missing behavioral data and memory infrastructure that allows AI to truly personalize human experience. Our system will benefit from the existing social graphs that users have already created through YouTube and TikTok. Over time, we will own a <span className="text-red-700 font-semibold">social graph that is completely unique</span>, built from authentic behavior and interaction. After hundreds of conversations with users, friends, and classmates, our insight is clear: this graph should not live inside a single app, it should <span className="text-red-700 font-semibold">live across our entire ecosystem</span>. Every new experience we launch will be aware of that graph, creating a connected layer of personalization that grows stronger with every interaction.
               </p>
               <p>
-                There are strong cultural tailwinds behind this shift. Gen Z is done with mindless scrolling <a href="#citation-1" className="text-red-600 hover:text-red-700">[1]</a>. Despite social apps being more addictive than ever, engagement among younger audiences is actually declining. What people want now is real connection, authenticity, belonging, and tools that understand them without demanding attention.
+                There are strong cultural tailwinds behind this shift. Gen Z is done with mindless scrolling. Despite social apps being more addictive than ever, engagement among younger audiences is actually declining. What people want now is real connection, authenticity, belonging, and tools that understand them without demanding attention.
               </p>
               <p>
                 The first wave of AI social apps like Sora2 proved this tension. They gained instant hype but no retention. People don't want synthetic feeds; they want systems that make their real lives richer.
@@ -214,7 +214,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Our First Product Button */}
+          {/* Our First Product Button to be added later
           <div className="my-20 text-center">
             <a 
               href="/phtogrph" 
@@ -222,17 +222,7 @@ export default function Home() {
             >
               Our First Product
             </a>
-          </div>
-
-          {/* Citations */}
-          <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Citations</h2>
-            <div className="space-y-2 text-sm text-gray-600 font-ui">
-              <p id="citation-1">
-                <span className="font-semibold">[1]</span> Have We Reached Peak Social Media? Critical Playground, 2024. <a href="https://criticalplayground.org/news/have-we-reached-peak-social-media/" className="text-red-600 hover:text-red-700 underline">https://criticalplayground.org/news/have-we-reached-peak-social-media/</a>
-              </p>
-            </div>
-          </section>
+          </div> */}
         </div>
       </div>
     </main>
