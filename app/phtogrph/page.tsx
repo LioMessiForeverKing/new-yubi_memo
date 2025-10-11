@@ -85,7 +85,7 @@ export default function Phtogrph() {
               href="/" 
               className="text-base text-gray-600 hover:text-red-700 transition-colors duration-300 font-semibold"
             >
-              ← Back to Ubi Memo
+              ← Back to Asteri Memo
             </a>
           </div>
           

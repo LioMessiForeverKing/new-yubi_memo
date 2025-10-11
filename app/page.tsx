@@ -34,15 +34,10 @@ export default function Home() {
             <div style={{ display: 'inline-flex', alignItems: 'center', gap: '2rem' }}>
               <img
                 src="/logo.svg"
-                alt="Ubi logo"
+                alt="Asteri logo"
                 className="spin-once"
                 onClick={handleLogoClick}
                 style={{ height: '8rem', width: 'auto', display: 'inline-block', cursor: 'pointer' }}
-              />
-              <img
-                src="/ubi.svg"
-                alt="Ubi wordmark"
-                style={{ height: '8rem', width: 'auto', display: 'inline-block' }}
               />
             </div>
           </div>
@@ -186,9 +181,9 @@ export default function Home() {
           </section>
 
 
-          {/* Why Ubi Wins */}
+          {/* Why Asteri Wins */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Why Ubi Wins</h2>
+            <h2 className="text-2xl font-bold mb-4">Why Asteri Wins</h2>
             <div className="space-y-4 text-base leading-normal text-gray-800 font-ui">
               <p>
                 We are entering a new era of human AI interaction. The world doesn't need another app that does one thing, it needs a <span className="text-red-700 font-semibold">connected system that understands people across everything they do</span>.
@@ -197,7 +192,7 @@ export default function Home() {
                 Social networks used to be destinations. You went to Facebook to connect, to Instagram to share, to TikTok to express. But the next generation of platforms will not live in a single app. They will <span className="text-red-700 font-semibold">live with the user, across time, memory, and context</span>.
               </p>
               <p>
-                Ubi wins because we are building exactly that, the missing behavioral data and memory infrastructure that allows AI to truly personalize human experience. Our system will benefit from the existing social graphs that users have already created through YouTube and TikTok. Over time, we will own a <span className="text-red-700 font-semibold">social graph that is completely unique</span>, built from authentic behavior and interaction. After hundreds of conversations with users, friends, and classmates, our insight is clear: this graph should not live inside a single app, it should <span className="text-red-700 font-semibold">live across our entire ecosystem</span>. Every new experience we launch will be aware of that graph, creating a connected layer of personalization that grows stronger with every interaction.
+                Asteri wins because we are building exactly that, the missing behavioral data and memory infrastructure that allows AI to truly personalize human experience. Our system will benefit from the existing social graphs that users have already created through YouTube and TikTok. Over time, we will own a <span className="text-red-700 font-semibold">social graph that is completely unique</span>, built from authentic behavior and interaction. After hundreds of conversations with users, friends, and classmates, our insight is clear: this graph should not live inside a single app, it should <span className="text-red-700 font-semibold">live across our entire ecosystem</span>. Every new experience we launch will be aware of that graph, creating a connected layer of personalization that grows stronger with every interaction.
               </p>
               <p>
                 There are strong cultural tailwinds behind this shift. Gen Z is done with mindless scrolling. Despite social apps being more addictive than ever, engagement among younger audiences is actually declining. What people want now is real connection, authenticity, belonging, and tools that understand them without demanding attention.
@@ -206,7 +201,7 @@ export default function Home() {
                 The first wave of AI social apps like Sora2 proved this tension. They gained instant hype but no retention. People don't want synthetic feeds; they want systems that make their real lives richer.
               </p>
               <p>
-                Ubi sits exactly at that intersection. We believe AI will stay, but its role is changing. AI should not replace people, it should remember, connect, and empower them. We see a world of <span className="text-red-700 font-semibold">agent to agent collaboration</span>, where every user has their own Jarvis, not a single omnipotent assistant, but a network of smaller, specialized agents that act together, coordinate, and get things done for you.
+                Asteri sits exactly at that intersection. We believe AI will stay, but its role is changing. AI should not replace people, it should remember, connect, and empower them. We see a world of <span className="text-red-700 font-semibold">agent to agent collaboration</span>, where every user has their own Jarvis, not a single omnipotent assistant, but a network of smaller, specialized agents that act together, coordinate, and get things done for you.
               </p>
               <p>
                 That is the infrastructure we are building, a <span className="text-red-700 font-semibold">human centered layer of memory, intelligence, and coordination</span> that bridges people and AI. It is not just another social product; it is the operating system for the next generation of digital life.
@@ -224,6 +219,23 @@ export default function Home() {
             </a>
           </div> */}
         </div>
+          {/* Jeff Hoffman reaction video */}
+          <section className="mb-8">
+            <p className="text-base leading-normal text-gray-800 font-ui mb-4">
+              A snippet of a conversation with Jeff Hoffman (Founder of Booking.com)
+            </p>
+            <div style={{ maxWidth: '70%' }}>
+              <video 
+                controls 
+                preload="metadata" 
+                className="w-full rounded-lg"
+                style={{ maxHeight: '420px' }}
+              >
+                <source src="/2025-07-14_12-33-05_1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </section>
       </div>
     </main>
   );
