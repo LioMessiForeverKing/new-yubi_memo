@@ -15,6 +15,11 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen">
         {children}
+        <footer className="site-footer">
+          <a href="/privacy">Privacy</a>
+          <span> · </span>
+          <a href="/terms">Terms</a>
+        </footer>
       </body>
     </html>
   )
