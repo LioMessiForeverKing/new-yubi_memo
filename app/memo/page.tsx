@@ -97,20 +97,20 @@ export default function MemoPage() {
               <p>
                 Our focus is on <span className="text-red-700 font-semibold">AI memory and proactive agents</span>, systems that don't just respond but act. We are exploring how AI can become a daily collaborator, helping people across multiple dimensions of life:
               </p>
-              <div className="ml-4 space-y-3">
-                <p>
+              <ul className="ml-4 space-y-3 list-disc pl-6">
+                <li>
                   <span className="text-red-700 font-semibold">Social connection:</span> Helping people meet new friends and reconnect with old ones through shared behaviors and emotional alignment.
-                </p>
-                <p>
+                </li>
+                <li>
                   <span className="text-red-700 font-semibold">Health and wellness:</span> Using memory and behavioral insights to monitor patterns and support well-being, similar to how Flo personalizes health cycles.
-                </p>
-                <p>
+                </li>
+                <li>
                   <span className="text-red-700 font-semibold">Fashion and self-expression:</span> Translating behavioral and visual cues from platforms like TikTok and YouTube into a dynamic reflection of personal style.
-                </p>
-                <p>
+                </li>
+                <li>
                   <span className="text-red-700 font-semibold">Everyday utility:</span> Creating proactive agents that anticipate needs, remind, suggest, and assist before a user even has to ask.
-                </p>
-              </div>
+                </li>
+              </ul>
               <p>
                 Over the past few months, we have been testing these ideas in the real world. We have built and launched more than <span className="text-red-700 font-semibold">ten consumer AI apps</span>, failed fast on several, and scaled others to over <span className="text-red-700 font-semibold">4,000 active users combined</span>. Each experiment has taught us something new about true consumer intent—what people actually want when AI becomes part of their lives.
               </p>
