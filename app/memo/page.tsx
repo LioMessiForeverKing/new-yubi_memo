@@ -3,14 +3,6 @@
 import Threads from '../../components/Threads';
 
 export default function MemoPage() {
-  function handleLogoClick(e: React.MouseEvent<HTMLImageElement>) {
-    const el = e.currentTarget;
-    el.classList.remove('spin-once');
-    // Force reflow to restart the animation
-    void el.getBoundingClientRect();
-    el.classList.add('spin-once');
-  }
-
   return (
     <main className="min-h-screen flex overflow-hidden" style={{backgroundColor: '#f1efe3'}}>
       {/* Left Sidebar - Threads Animation (hidden on mobile) */}
@@ -31,13 +23,11 @@ export default function MemoPage() {
           
           {/* Main Title */}
           <div className="mb-64 text-center">
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '2rem' }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '2rem', justifyContent: 'center', width: '100%' }}>
               <img
                 src="/logo.png"
                 alt="Asteri logo"
-                className="spin-once"
-                onClick={handleLogoClick}
-                style={{ height: '32rem', width: 'auto', display: 'inline-block', cursor: 'pointer' }}
+                style={{ maxHeight: '32rem', maxWidth: '90vw', width: 'auto', height: 'auto', objectFit: 'contain' }}
               />
             </div>
           </div>
@@ -49,6 +39,7 @@ export default function MemoPage() {
           <div className="mb-6 text-lg leading-tight">
             <p><span className="text-red-700 font-semibold">CEO & Co-founder:</span> <a href="https://www.linkedin.com/in/dhruvkl/" className="text-red-600 hover:text-red-700">Dhruv Lalwani</a></p>
             <p><span className="text-red-700 font-semibold">CTO & Co-founder:</span> <a href="https://www.linkedin.com/in/ayen-monasha-b96666236/" className="text-red-600 hover:text-red-700">Ayen Monasha</a></p>
+            <p><span className="text-red-700 font-semibold">CMO & Co-founder:</span> <a href="https://www.linkedin.com/in/sophia-green1/" className="text-red-600 hover:text-red-700">Sophia Green</a></p>
           </div>
 
           {/* Our Thesis */}
