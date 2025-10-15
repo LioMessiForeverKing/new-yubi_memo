@@ -53,6 +53,9 @@ export default function MemoPage() {
                   We begin with <span className="text-red-700 font-semibold">YouTube and TikTok</span>, the two richest behavioral ecosystems on the planet, allowing people to pick up from where they already are rather than starting from zero. By helping users seamlessly export the foundation of their social graph into our apps, we unlock a living picture of their interests, rhythms, and emotions.
                 </p>
                 <p>
+                  <span className="text-red-700 font-semibold">YouTube and TikTok are scaffolding, not strategy</span>: we import behavioral signals as a starting layer, but true personalization cannot depend on external graphs—it must compound through lived behavior, feedback, and ethically user-owned memory.
+                </p>
+                <p>
                   From there we work on the frontier of <span className="text-red-700 font-semibold">AI memory</span>, designing systems that create the "this app gets me" feeling, the real aha moment. Our mission is to deliver <span className="text-red-700 font-semibold">true personalization at scale</span>, building technology that remembers you and evolves with you over time.
                 </p>
                 <p>
@@ -93,6 +96,9 @@ export default function MemoPage() {
             <div className="space-y-4 text-base leading-normal text-gray-800 font-ui">
               <p>
                 We have been quietly building an <span className="text-red-700 font-semibold">Applied AI Consumer Lab</span>, a company experimenting at the frontier of memory, proactivity, and human-AI interaction. Our mission is to design systems that understand people deeply, anticipate their needs, and enhance their daily lives. We are not building another consumer app. We are building the foundation for a new class of intelligent, personalized interfaces that integrate seamlessly into how people live, connect, and express themselves.
+              </p>
+              <p className="text-black font-semibold">
+                Memory is the final product. Every app and interaction compounds into a longitudinal understanding that gets better over time.
               </p>
               <p>
                 Our focus is on <span className="text-red-700 font-semibold">AI memory and proactive agents</span>, systems that don't just respond but act. We are exploring how AI can become a daily collaborator, helping people across multiple dimensions of life:
@@ -184,6 +190,9 @@ export default function MemoPage() {
               </p>
               <p>
                 Asteri wins because we are building exactly that, the missing behavioral data and memory infrastructure that allows AI to truly personalize human experience. Our system will benefit from the existing social graphs that users have already created through YouTube and TikTok. Over time, we will own a <span className="text-red-700 font-semibold">social graph that is completely unique</span>, built from authentic behavior and interaction. After hundreds of conversations with users, friends, and classmates, our insight is clear: this graph should not live inside a single app, it should <span className="text-red-700 font-semibold">live across our entire ecosystem</span>. Every new experience we launch will be aware of that graph, creating a connected layer of personalization that grows stronger with every interaction.
+              </p>
+              <p>
+                Our long-term advantage is <span className="text-red-700 font-semibold">continuity</span>: a persistent, user-owned memory graph that integrates behavioral signals, contextual cues, and human feedback. This turns personalization into <span className="text-red-700 font-semibold">infrastructure</span>—not a feature—spanning social, wellness, style, and productivity.
               </p>
               <p>
                 There are strong cultural tailwinds behind this shift. Gen Z is done with mindless scrolling. Despite social apps being more addictive than ever, engagement among younger audiences is actually declining. What people want now is real connection, authenticity, belonging, and tools that understand them without demanding attention.
